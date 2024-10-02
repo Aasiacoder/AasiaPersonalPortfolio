@@ -530,7 +530,7 @@ footer {
     }
 
     .abt__dash {
-        margin-top: 35%;
+        margin-top: 40%;
     }
 
     #contact-head {
@@ -592,6 +592,9 @@ footer {
         left: 60%;
     }
 
+    #about {
+        top: 5%;
+    }
     .abt-image {
         width: 40%;
         height: 70%;
@@ -606,7 +609,7 @@ footer {
 
     .abt__h1 {
         font-size: 3.5vw;
-        top: 10%;
+        top: 5%;
     }
 
     .abt__para {
@@ -616,7 +619,7 @@ footer {
     }
 
     .abt__dash {
-        margin-top: 60%;
+        margin-top: 70%;
     }
 
     #contact-head {
