@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <!--Style link-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Icon Awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <!--Navbar  Page Section-->
+    <section class="navbar-section">
+        <nav class="navbar">
+            <h1 class="head-one">Aas<span>ia</span></h1>
+            <i class="fa-solid fa-bars" id="menubar-icon"></i>
+            <ul class="header-list">
+                <li><a href="#container">HOME </a></li>
+                <li><a href="#about">ABOUT </a></li>
+                <li><a href="#projects">MY PROJECTS </a></li>
+                <li><a href="#contact">CONTACT <span>US</span></a></li>
+            </ul>
+        </nav>
+
+        <!--side Bar-->
+        <section id="sidebar">
+            <div id="side-close">
+                <i id="side-close__icon" class="fa-solid fa-x"></i>
+            </div>
+            <ul id="sidebar-list">
+                <li id="sidebar-list__links"><a href="#container">HOME</a></li>
+                <li id="sidebar-list__links"><a href="#about">ABOUT</a></li>
+                <li id="sidebar-list__links"><a href="#projects">MY PROJECTS</a></li>
+                <li id="sidebar-list__links"><a href="#contact">CONTACT US </a></li>
+            </ul>
+        </section>
+
+        <!--Home main body-->
+        <section id="container">
+            <h2 class="container-head1">I'm <span>Aasia</span></h2>
+            <h3 class="container-head2">Web Developer</h3>
+            <p class="para1">
+                Hi, I'm Aasia, passionate web developer with a strong foundation in HTML, CSS, Tailwind CSS and
+                JavaScript.
+                <br>
+                Currently expanding my skills in React.js and committed to building responsive, user-friendly websites.
+            </p>
+            <button class="container-btn"><a href="img/Resume web.pdf" class="container-anchor">Download CV</a></button>
+            <div class="container-images">
+                <img src="img/girly.jpg" alt="alternative image" class="container__photo">
+            </div>
+        </section>
+
+    </section>
+    <hr class="dash-hr">
+
+    <!--About Section-->
+
+    <section id="about">
+        <h1 class="abt__h1">About <span>Me</span></h1>
+        <p class="abt__para">As a Computer Science graduate with a passion for web development, I have a strong
+            foundation in HTML, CSS, and a growing skill set in JavaScript and Tailwind CSS. Although I’m a fresher in
+            the industry, I've successfully completed 5+ projects that demonstrate my ability to create responsive,
+            visually appealing, and user-friendly websites.
+            <br> My dedication to continuous learning motivates me to expand my expertise, particularly in front-end
+            technologies like React.js, as I embrace new challenges and opportunities in web development."
+        </p>
+        <div class="abt-image">
+            <img src="./img/girly.jpg" alt="alternative image" class="img">
+        </div>
+    </section>
+
+    <hr class="abt__dash">
+
+    <!--Projects Section-->
+
+    <section id="projects">
+        <h2 class="projects-head">My <span>Projects</span></h2>
+        <div class="project-container">
+            <div class="img-link">
+                <img src="./img/img1.jpg" id="clickableImage1" alt=""><b style="margin-top: 20px; border: solid 2px #bae4f1; color: #1D232C; background-color: #bae4f1; width: 100%; padding: 5px;">Greenden</b>
+            </div>
+            <div class="img-link">
+                <img src="./img/img2.jpg" id="clickableImage2" alt=""><b style="margin-top: 20px; border: solid 2px #bae4f1; color: #1D232C; background-color: #bae4f1; width: 100%; padding: 5px;">Udemy-Clone</b>
+            </div>
+            <div class="img-link">
+                <img src="./img/img3.jpg" id="clickableImage3" alt=""><b style="margin-top: 20px; border: solid 2px #bae4f1; color: #1D232C; background-color: #bae4f1; width: 100%; padding: 5px;">Nostra-Clone</b>
+            </div>
+            <div class="img-link">
+                <img src="./img/img4.jpg" id="clickableImage4" alt=""><b style="margin-top: 20px; border: solid 2px #bae4f1; color: #1D232C; background-color: #bae4f1; width: 100%; padding: 5px;">BookNook</b>
+            </div>
+            <div class="img-link">
+                <img src="./img/img5.jpg" id="clickableImage5" alt=""><b style="margin-top: 20px; border: solid 2px #bae4f1; color: #1D232C; background-color: #bae4f1; width: 100%; padding: 5px;">Subscription-Page</b>
+            </div>
+            <div class="img-link">
+                <img src="./img/img6.jpg" id="clickableImage6" alt=""><b style="margin-top: 20px; border: solid 2px #bae4f1; color: #1D232C; background-color: #bae4f1; width: 100%; padding: 5px;">Reester Website</b>
+            </div>
+        </div>
+    </section>
+
+    <hr class="project__dash">
+
+    <!--Contact Form-->
+
+    <h2 id="contact-head">Contact <span>Us</span></h2>
+
+    <section id="contact">
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email">
+            <label for="message">Message</label>
+            <input type="textarea" id="message" name="message" style="height: 80px;" placeholder="Message">
+            <input type="submit" value="Submit" name="message">
+        </form>
+    </section>
+
+    <hr class="contact__dash">
+
+    <!--Footer Section-->
+    <footer>
+        <div class="footer-content">
+          <ul class="social-links">
+            <li><i class="fa-brands fa-linkedin" id="linkedin"></i></li>
+            <li><i class="fa-brands fa-github" id="github"></i></li>
+          </ul>
+          <p>Contact: <a href="mailto:aasia3017@gmail.com">aasia3017@gmail.com</a></p>
+          <p>&copy; 2024 Aasia A. All Rights Reserved.</p>
+        </div>
+      </footer>
+      
+    <script src="script.js"></script>
+</body>
+
+</html>
